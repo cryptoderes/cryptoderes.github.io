@@ -1,0 +1,130 @@
+ul {
+    font-family: 'Oxygen', sans-serif;
+
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+
+    position: fixed;
+    top: 0%;
+    left: 0%;
+    width: 100%;
+
+    background-color: #009FFD;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    
+    padding: 0.25rem;
+    width: 4rem;
+    
+}
+
+.active {
+    background-color: white;
+    color: black;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+#content {
+    display: flex;
+    flex-direction: row;
+
+    margin: 3%;
+
+    background-color: #CBF3F0;
+    border-radius: 10px;
+
+    
+    font-size: 1.5vw;
+}
+
+#pfp {
+    max-width: 25vw;
+    max-height: auto;
+    border-radius: 10px;
+}
+
+#summary p {
+    margin: 3px;
+    font-size: 1.5vw;
+}
+
+#about {
+    margin-top: 3%;
+    margin-right: 5%;
+    margin-left: 5%;
+
+    font-size: larger;
+    
+}
+
+#summary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-size: small;
+
+    margin-top: 5%;
+    margin-left: 3%;
+    margin-bottom: 5%;
+
+    background-color: white;
+    border-radius: 10px;
+
+    width: 120%;
+    height:min-content;
+
+    padding-top: 3%;
+    padding-left: 0.5%;
+    padding-right: 0.5%;
+    padding-bottom: 1%;
+}
+
+#contact {
+    display: flex;
+    flex-direction: row;
+
+    justify-content: center;
+
+}
+
+button {
+    background: linear-gradient(271.97deg, #009FFD 1.44%, #009FFD 93.56%);
+    border-radius: 30px;
+    border: none;
+    width: 160px;
+    height: 60px;
+
+    color: white;
+    font-weight: bolder;
+    font-size: 110%;
+    cursor: pointer;
+
+    margin-left: 3%;
+    margin-right: 3%;
+
+    
+    box-shadow: 0 10px 0 #0070B2;
+}
+
+button:active {
+    box-shadow: none;
+    transform: translateY(10px);
+}
